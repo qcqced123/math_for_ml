@@ -9,8 +9,9 @@ import sys
 
 # DEFINE OBJECTS OF THE GAME
 
+
 class PolygonModel():
-    def __init__(self,points):
+    def __init__(self, points):
         self.points = points
         self.rotation_angle = 0
         self.x = 0
